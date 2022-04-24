@@ -1,12 +1,32 @@
+/* style */
+/* - Mobile: 375px
+    - Desktop: 1440px
+
+    - Very Dark Grayish Blue: hsl(217, 19%, 35%)
+    - Desaturated Dark Blue: hsl(214, 17%, 51%)
+    - Grayish Blue: hsl(212, 23%, 69%)
+    - Light Grayish Blue: hsl(210, 46%, 95%)
+
+    - Font size: 13px
+
+    - Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+    - Weights: 500, 700 */
+
+
 body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
 }
 
 main {
     width: 90%;
+    background-color: white;
+    border-radius: 1em;
+    height: auto;
 }
 
 footer {
