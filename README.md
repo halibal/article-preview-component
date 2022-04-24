@@ -11,7 +11,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
     - [Screenshot](#screenshot)
     - [Links](#links)
     - [Built with](#built-with)
-    - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
@@ -26,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-- ![My screenshot](https://raw.githubusercontent.com/halibal/interactive-rating-component/main/interactive_rating_component_my_solution.png)
+- ![My screenshot]()
 
 ### Links
 
 - Solution URL: [Frontend Mentor | My Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-html-js-css-bootstrap-r1NJ0ru4q)
-- Live Site URL: [Halibal | Interactive Rating Component](https://halibal.github.io/interactive-rating-component/)
+- Live Site URL: [Halibal | Article Preview Component](https://halibal.github.io/article-preview-component/)
 
 ### Built with
 
@@ -40,10 +39,6 @@ Users should be able to:
 - [Flex](https://getbootstrap.com/docs/5.0/utilities/flex/)
 - [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 - [JavaScript](https://www.javascript.com)
-
-### Continued development
-
-Still have to work so hard to get to a point where I feel like I'm doing a good job.
 
 ### Useful resources
 
