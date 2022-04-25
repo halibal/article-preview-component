@@ -45,6 +45,7 @@ Users should be able to:
 - [W3Schools | addEventListener](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
 - [Geeksforgeeks | Call Multiple Functions in Onclick Event](https://www.geeksforgeeks.org/call-multiple-javascript-functions-in-onclick-event/)
 - [Bootstrap | Flex](https://getbootstrap.com/docs/5.0/utilities/flex/)
+- [The Codest | Noreferror Noopener](https://thecodest.co/blog/web-app-security-target-_blank-vulnerability)
 
 ## Author
 
