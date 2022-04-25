@@ -59,6 +59,11 @@
             border-radius: 1em 1em 0 0;
         }
 
+        #activeShare {
+            border-radius: 0 0 1em 1em;
+            height: 75px;
+        }
+
         </style>
 
     </head>
@@ -82,8 +87,8 @@
                 Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
                 </p>
 
-                <div id="userInfo" class="d-flex justify-content-between align-items-center mb-2" style="border-radius: 2em;">
-                    <img class="rounded-circle ms-2 me-3" width="45px" id="avatar" src="./images/avatar-halibal.jpg" alt="avatar">
+                <div id="userInfo" class="d-flex justify-content-between align-items-center mb-2 d-none" style="border-radius: 2em;">
+                    <img class="rounded-circle ms-1 me-3" width="45px" id="avatar" src="./images/avatar-halibal.jpg" alt="avatar">
 
                     <div class="d-flex flex-column justify-content-center">
                         <a class="text-decoration-none text-black fw-bold" href="https://www.linkedin.com/in/halilalgul/"target="_blank" referrerpolicy="">Halil ALGUL<a>
@@ -98,22 +103,30 @@
                     </div>
                     
                 </div>
-              
+
+                
+            </div>
+            <!-- active state on mobile -->
+            <div id="activeShare" class="d-flex w-100 justify-content-center" style="background-color: hsl(217, 19%, 35%);">
+                <div class="d-flex h-100 w-75 align-items-center">
+                    <a class="me-1 text-decoration-none" style="color: hsl(212, 23%, 69%);">S H A R E</a>
+                    <div class="d-flex w-50 justify-content-evenly text-decoration-none">
+                        <a href="http://www.facebook.com/share.php?https://halibal.github.io/article-preview-component/" rel="noopener noreferrer" target="_blank" class="fa-brands fa-facebook-square fa-xl text-decoration-none text-white"></a>
+                        <a href="#" rel="noopener noreferrer" target="_blank" class="fa-brands fa-twitter fa-xl text-white text-decoration-none"></a>
+                        <a href="#" rel="noopener noreferrer" target="_blank" class="fa-brands fa-pinterest fa-xl text-white text-decoration-none"></a>
+                    </div>
+                    <div class="text-center ms-auto">
+                        <a id="shareBtn" href="#" rel="noopener noreferrer" target="_blank">
+                            <i class="fa-solid fa-share rounded-circle" 
+                            style="color: hsl(214, 17%, 51%); background-color: hsl(210, 46%, 95%); padding: 10px;">
+                            </i>
+                        </a>
+                    </div>
+                </div>
             </div>
 
-             <!-- active state on mobile -->
-            <div class="d-none">
-                <p>S H A R E</p>
-                <div class="favIconsDiv">
-                    <div class="fa-brands fa-facebook-square favIcons fa-lg"></div>
-                    <div class="fa-brands fa-twitter favIcons fa-lg"></div>
-                    <div class="fa-brands fa-pinterest favIcons fa-lg"></div>
-                </div>
-                <div id="activeShare">
-                    <div class="fa-solid fa-share"></div>
-                </div>
-            </div>
-        </div>
+    
+        </main>
 
         <!-- icon -->
         <!-- <i class="fa-solid fa-share"></i> -->
