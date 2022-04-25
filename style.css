@@ -12,6 +12,15 @@
     - Family: [Manrope](https://fonts.google.com/specimen/Manrope)
     - Weights: 500, 700 */
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
 
 body {
     min-height: 100vh;
@@ -26,7 +35,10 @@ main {
     width: 90%;
     background-color: white;
     border-radius: 1em;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px hsl(214, 17%, 51%, 0.1);
 }
 
 footer {
@@ -34,4 +46,117 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.textPart {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.drawersDiv {
+    width: 100%;
+    overflow: hidden;
+    height: 260px;
+    border-radius: 1em 1em 0 0;
+}
+
+#drawers {
+    width: 100%;
+    max-width:100%;
+}
+
+.textDiv {
+    font-size: 0.6em;
+    margin-bottom: 10px;
+    line-height: 3em;
+}
+
+#cardTxt {
+    font-size: 1.64em;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: hsl(214, 17%, 51%)
+}
+
+h1 {
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+}
+
+#userInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#avatar {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nameAndDate {
+    margin-left: 1.2em;
+}
+
+#userName {
+    font-weight: bold;
+    margin-bottom: 0.1em;
+    color: hsl(217, 19%, 35%);
+}
+#date {
+    margin-top: 0.1em;
+    color: hsl(212, 23%, 69%);
+}
+
+.shareDiv {
+    height: auto;
+    margin-left: auto;
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    padding: 0.6em;
+    text-align: center;
+    width: 1.2em;
+}
+
+.shareDiv div {
+    color: hsl(214, 17%, 51%)
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    main {
+        width: 60%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+
+    .textPart {
+        width: 50%;
+        margin-top: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .drawersDiv {
+        width: 500px;
+        overflow: hidden;
+        height: auto;
+        border-radius: 1em 0 0 1em;
+        margin: 0;
+    }
+
+    #drawers {
+        display: block;
+        max-width:100%;
+        border-radius: 1em 0 0 1em;
+    }
 }

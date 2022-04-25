@@ -22,27 +22,42 @@
 
         <title>Frontend Mentor | Article preview component</title>
 
-        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-        <style>
-            .attribution { font-size: 11px; text-align: center; }
-            .attribution a { color: hsl(228, 45%, 44%); }
-        </style>
     </head>
     <body>
 
         <main>
+            <!-- drawer image -->
+            <div class="drawersDiv">
+                <img id="drawers" src="./images/drawers.jpg" alt="drawers">
+            </div>
 
-            Shift the overall look and feel by adding these wonderful 
-            touches to furniture in your home
+            <!-- card text -->
 
-            Ever been in a room and felt like something was missing? Perhaps 
-            it felt slightly bare and uninviting. I’ve got some simple tips 
-            to help you make any room feel complete.
-
-            Michelle Appleton
-            28 Jun 2020
-
-            Share
+            <div class="textPart">
+                <div class="textDiv">
+                    <h1>
+                        Shift the overall look and feel by adding these wonderful 
+                        touches to furniture in your home
+                    </h1>
+                    <p id="cardTxt">
+                        Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+                    </p>
+                </div>
+                
+                <!-- user info -->
+                <div id="userInfo">
+                    <div class="avatarDiv">
+                        <img id="avatar" src="./images/avatar-halibal.jpg" alt="avatar">
+                    </div>
+                    <div class="nameAndDate">
+                        <p id="userName">Halil ALGUL</p>
+                        <p id="date">current date</p>
+                    </div>
+                    <div class="shareDiv">
+                        <div class="fa-solid fa-share"></div>
+                    </div>
+                </div>
+            </div>
 
         </main>
 
