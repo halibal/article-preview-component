@@ -165,8 +165,12 @@ h1 {
         object-fit: cover;
         border-radius: 1em 0 0 1em;
     }
+
+    
 }
 
+
+/* active state part */
 .activeStateMobile {
     width: 100%;
     display: flex;
