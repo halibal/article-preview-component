@@ -89,6 +89,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    display: none;
 }
 
 #avatar {
@@ -124,6 +125,10 @@ h1 {
     color: hsl(214, 17%, 51%)
 }
 
+.shareDiv:hover {
+    cursor: pointer;
+}
+
 @media screen and (min-width: 600px) {
     main {
         width: 40%;
@@ -132,7 +137,8 @@ h1 {
 
 @media screen and (min-width: 1400px) {
     main {
-        width: 60%;
+        width: 900px;
+        max-width: 60%;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -141,22 +147,59 @@ h1 {
 
     .textPart {
         width: 50%;
-        margin-top: 30px;
-        margin-right: auto;
+        margin-right: 5%;
         margin-left: auto;
     }
 
     .drawersDiv {
-        width: 500px;
+        width: 550px;
         overflow: hidden;
         height: auto;
         border-radius: 1em 0 0 1em;
-        margin: 0;
+        margin-right: 5%;
+        object-fit: cover;
     }
 
     #drawers {
         display: block;
-        max-width:100%;
+        object-fit: cover;
         border-radius: 1em 0 0 1em;
     }
+}
+
+.activeStateMobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 1em 1em;
+    background-color: hsl(217, 19%, 35%);
+    height: 80px;
+}
+
+.activeStateMobile p {
+    color: hsl(212, 23%, 69%);
+    margin-left: 10%;
+}
+
+.favIconsDiv {
+    margin-right: 15%;
+    margin-left: 7%;
+}
+
+.favIcons {
+    color: white;
+    height: auto;
+    margin-right: 20px;
+}
+
+#activeShare {
+    color: white;
+    height: auto;
+    margin-right: 10%;
+    background-color: hsl(214, 17%, 51%);
+    border-radius: 50%;
+    padding: 0.5em;
+    text-align: center;
+    width: 1.2em;
 }
