@@ -46,6 +46,8 @@ Users should be able to:
 - [Geeksforgeeks | Call Multiple Functions in Onclick Event](https://www.geeksforgeeks.org/call-multiple-javascript-functions-in-onclick-event/)
 - [Bootstrap | Flex](https://getbootstrap.com/docs/5.0/utilities/flex/)
 - [The Codest | Noreferror Noopener](https://thecodest.co/blog/web-app-security-target-_blank-vulnerability)
+- [CSS Tricks | Object Position](https://css-tricks.com/almanac/properties/o/object-fit/)
+- [Create Share Links - TW | FB | PIN | TUM](https://gist.github.com/chrisjlee/5196139)
 
 ## Author
 
