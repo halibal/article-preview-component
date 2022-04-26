@@ -53,6 +53,7 @@ img {
 /* footer ends */
 
 
+/* card,container and heading starts*/
 .card {
     width: 31.8rem;
     background-color: #fff;
@@ -86,10 +87,10 @@ img {
     padding-top: 1.5rem;
     color: var(--clr-dblue);
 }
+/* card,container and heading ends*/
 
 
-
-  /* Post-by Section */
+/* author section starts */
 .post {
     padding: 2rem 0;
     position: relative;
@@ -127,8 +128,11 @@ img {
 .date {
     color: var(--clr-gb);
 }
+/* author section ends */
 
 
+
+/* share part starts */
 .share-container {
     height: 8.6rem;
     display: flex;
@@ -145,7 +149,7 @@ img {
     display: flex;
 }
 
-.share {
+.share-text {
     text-transform: uppercase;
     color: var(--clr-dblue);
     letter-spacing: 5px;
@@ -179,7 +183,7 @@ img {
     height: 4rem;
     border: none;
     border-radius: 50%;
-    background-color: hsl(210, 46%, 95%);
+    background-color: var(--clr-lgb);
     border: 1px solid transparent;
     transition: 0.25s all ease-in-out;
 }
@@ -189,11 +193,15 @@ img {
     height: 2rem;
 }
 
+.btn-img:hover {
+    filter: contrast(100%);
+}
+
 .btn:hover {
     opacity: 0.8;
     cursor: pointer;
-    border: 1px solid black;
 }
+
 
 
 
