@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
 
+:root {
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -56,6 +63,36 @@ main {
     .cardText {
         font-size: 0.82em;
     }
+}
+
+#activeShareDesktop {
+    background: var(--Very-Dark-Grayish-Blue);
+    padding: .75rem;
+    position: absolute;
+    left: 78%;
+    width: 15rem;
+    height: 60px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 5.4em;
+    display: none;
+}
+
+#activeShareDesktop:after {
+    content: "";
+    position: absolute;
+    top: 70%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 2rem var(--Very-Dark-Grayish-Blue);
+    border-left: solid 2rem transparent;
+    border-right: solid 2rem transparent;
+    z-index: 3; 
 }
 
 
