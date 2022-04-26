@@ -25,7 +25,10 @@ Users should be able to:
 
 ### Screenshot
 
-- ![My screenshot]()
+- ![Desktop Version](./images/article_preview_component_desktop_screenshot.png)
+- ![Desktop Version Active State](./images/article_preview_component_desktop_active_state_screenshot.png)
+- ![Mobile Version](./images/article_preview_component_mobile_version_screenshot.png)
+- ![Desktop Version Active State](./images/article_preview_component_mobile_active_state_screenshot.png)
 
 ### Links
 
